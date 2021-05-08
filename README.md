@@ -15,3 +15,8 @@ since sd is sync but usb is async, it keeps sending wait / not ready to the sdca
 
 slice manager receives mmc commands over usb in a userspace daemon.
 it looks up the relevant block in a ceph blockstore and returns it.
+
+
+### hardware
+
+probably will be part of hurmuz, but someone on twitter already asked to get this as well, so we might as well make a bunch of standalone boards.
